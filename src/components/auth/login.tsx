@@ -20,7 +20,7 @@ const Login = () => {
         description: res?.error,
       });
       if (res?.code === 2) {
-        router.push("/verify");
+        router.push(`/verify/`);
       }
     } else {
       // redirect to dashboard
